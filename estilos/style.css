@@ -53,7 +53,19 @@ section#login > div#imagem {
     box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.450);
 }
 
-section#login > section#formulario {
+section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+div#formulario > a {
+    text-decoration: none;
 }
